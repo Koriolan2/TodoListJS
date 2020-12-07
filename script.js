@@ -38,8 +38,7 @@ const render = function () {
 
         btnComplete.addEventListener('click', function() {
             
-            item.completed != item.completed;
-            console.log(item.completed);
+            item.completed = !item.completed;
             render();
         });
     });
